@@ -1,0 +1,11 @@
+export { Header } from "./Header";
+export { HeroSection } from "./HeroSection";
+export { WhyTradeSection } from "./WhyTradeSection";
+export { ReviewsSection } from "./ReviewsSection";
+export { ResultsSection } from "./ResultsSection";
+export { JoinCTASection } from "./JoinCTASection";
+export { ComparisonSection } from "./ComparisonSection";
+export { AboutSection } from "./AboutSection";
+export { FAQSection } from "./FAQSection";
+export { FinalCTASection } from "./FinalCTASection";
+export { Footer } from "./Footer";
