@@ -52,9 +52,13 @@ export const JoinCTASection = () => {
               ))}
             </ul>
 
-            <Button size="lg" className="bg-primary hover:bg-green-light text-primary-foreground text-lg px-8 py-6">
-              Join the FREE Group Now
-            </Button>
+            <Button
+  size="lg"
+  className="text-white hover:opacity-90 bg-[linear-gradient(241deg,_#7A3DE3_50%,_#0DE3D6_100%)] text-lg px-8 py-6"
+>
+  Join the FREE Group Now
+</Button>
+
           </div>
         </div>
       </div>

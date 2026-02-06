@@ -101,7 +101,7 @@ export const Header = () => {
       </header>
 
       {/* Trustpilot Bar */}
-      <div className="bg-navy py-3 border-b border-navy-light">
+      <div className="bg-[#0d1039] py-3 border-b border-navy-light">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-center gap-2 text-white">
             <span className="text-sm">Excellent</span>
