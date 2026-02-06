@@ -10,7 +10,8 @@ const benefits = [
 
 export const HeroSection = () => {
   return (
-    <section className="bg-navy-dark py-16 lg:py-24">
+    <section className="bg-[#0d1039] py-16 lg:py-24">
+
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}

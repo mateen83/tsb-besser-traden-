@@ -21,22 +21,26 @@ export const FinalCTASection = () => {
             Don't miss out on your chance to transform your financial future.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
-            <Button
-              size="lg"
-              className="bg-primary hover:bg-green-light text-primary-foreground text-lg px-8 py-6"
-            >
-              Join the FREE Group
-              <ArrowRight className="w-5 h-5 ml-2" />
-            </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-white/20 text-gray-700 hover:bg-white/10 text-lg px-8 py-6"
-            >
-              Learn More
-            </Button>
-          </div>
+         <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
+  {/* Join the FREE Group */}
+  <Button
+    size="lg"
+    className="text-white hover:opacity-90 bg-[linear-gradient(241deg,_#7A3DE3_50%,_#0DE3D6_100%)] text-lg px-8 py-6"
+  >
+    Join the FREE Group
+    <ArrowRight className="w-5 h-5 ml-2" />
+  </Button>
+
+  {/* Learn More */}
+  <Button
+    size="lg"
+    variant="outline"
+    className="border-white/20 text-gray-700 hover:bg-white/10 text-lg px-8 py-6"
+  >
+    Learn More
+  </Button>
+</div>
+
 
           <p className="text-sm text-white/50">
             No credit card required • Cancel anytime • 100% Free

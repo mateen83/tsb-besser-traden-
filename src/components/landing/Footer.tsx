@@ -11,7 +11,8 @@ const paymentMethods = ["Visa", "Mastercard", "PayPal", "Crypto"];
 
 export const Footer = () => {
   return (
-    <footer className="bg-navy py-12 border-t border-navy-light">
+    <footer className="bg-[#030524] py-12 border-t border-navy-light">
+
       <div className="container mx-auto px-4">
         {/* Logo and Social */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-6 mb-8">

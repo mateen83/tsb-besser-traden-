@@ -23,7 +23,8 @@ export const Header = () => {
 
   return (
     <>
-      <header className="sticky top-0 z-50 bg-navy-dark border-b border-navy-light">
+      <header className="sticky top-0 z-50 bg-[#030524] border-b border-navy-light">
+
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-16 lg:h-20">
             {/* Logo */}
@@ -46,14 +47,22 @@ export const Header = () => {
             </nav>
 
             {/* CTA Buttons */}
-            <div className="hidden lg:flex items-center gap-3">
-              <Button variant="outline" className="border-white/20 text-gray-700 hover:bg-white/10">
-                Join Now
-              </Button>
-              <Button className="bg-primary hover:bg-green-light text-primary-foreground">
-                Join FREE Group
-              </Button>
-            </div>
+     <div className="hidden lg:flex items-center gap-3">
+  {/* Join Now */}
+  <Button
+    variant="outline"
+    className="border-white/20 text-gray-700 hover:bg-white/10"
+  >
+    Join Now
+  </Button>
+
+  {/* Join FREE Group */}
+  <Button className="text-white hover:opacity-90 bg-[linear-gradient(241deg,_#7A3DE3_50%,_#0DE3D6_100%)]">
+    Join FREE Group
+  </Button>
+</div>
+
+
 
             {/* Mobile Menu Button */}
             <button

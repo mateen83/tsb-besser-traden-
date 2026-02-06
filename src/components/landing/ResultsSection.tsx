@@ -11,7 +11,8 @@ const results = [
 
 export const ResultsSection = () => {
   return (
-    <section id="results" className="py-20 bg-navy-dark">
+    <section id="results" className="py-20 bg-[#0d1039]">
+
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
