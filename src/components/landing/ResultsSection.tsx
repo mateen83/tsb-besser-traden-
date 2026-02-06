@@ -49,7 +49,7 @@ export const ResultsSection = () => {
       className="w-full h-full rounded-xl overflow-hidden border border-navy-light"
     >
       <img
-        src={`public/${img}`}
+        src={`/${img}`}
         alt={`Trading result ${i + 1}`}
         className="w-full h-full object-cover"
       />

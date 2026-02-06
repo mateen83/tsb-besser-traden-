@@ -58,7 +58,7 @@ export const HeroSection = () => {
           <div className="relative">
             <div className="aspect-square bg-gradient-to-br from-primary/20 to-accent/20 rounded-3xl overflow-hidden">
               <img
-                src="/public/hero.webp"
+                src="/hero.webp"
                 alt="Professional trader"
                 className="w-full h-full object-cover"
               />
