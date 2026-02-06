@@ -3,7 +3,10 @@ import { ArrowRight, Zap } from "lucide-react";
 
 export const FinalCTASection = () => {
   return (
-    <section className="py-20 bg-[#0d1039]">
+    <section
+  className="py-20 bg-[#0d1039] bg-cover bg-center bg-no-repeat"
+  style={{ backgroundImage: "url(/bg.webp)" }}
+>
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center space-y-8">
           <div className="inline-flex items-center gap-2 bg-primary/20 text-primary px-4 py-2 rounded-full">

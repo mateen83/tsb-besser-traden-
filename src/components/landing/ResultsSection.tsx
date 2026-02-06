@@ -41,21 +41,24 @@ export const ResultsSection = () => {
           ))}
         </div>
 
-        {/* Screenshot Gallery Placeholder */}
-        <div className="mt-16 grid md:grid-cols-3 gap-6">
-          {[1, 2, 3].map((i) => (
-            <div
-              key={i}
-              className="aspect-video bg-navy-light rounded-xl overflow-hidden border border-navy-light"
-            >
-              <img
-                src={`https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600&h=400&fit=crop&q=80`}
-                alt={`Trading result ${i}`}
-                className="w-full h-full object-cover opacity-80"
-              />
-            </div>
-          ))}
-        </div>
+{/* Screenshot Gallery */}
+<div className="mt-16 grid md:grid-cols-3 gap-6 w-full h-screen">
+  {["img1.jpg", "img2.jpg", "img3.jpg"].map((img, i) => (
+    <div
+      key={i}
+      className="w-full h-full rounded-xl overflow-hidden border border-navy-light"
+    >
+      <img
+        src={`public/${img}`}
+        alt={`Trading result ${i + 1}`}
+        className="w-full h-full object-cover"
+      />
+    </div>
+  ))}
+</div>
+
+
+
       </div>
     </section>
   );
